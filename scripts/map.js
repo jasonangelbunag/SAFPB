@@ -481,7 +481,7 @@ $(window).on('load', function() {
 
       labels.push(
         '<i style="background:' + color + '; opacity: '
-        + tryPolygonSetting(p, '_colorOpacity', '0.3') + '"></i> ' +
+        + tryPolygonSetting(p, '_colorOpacity', '0.7') + '"></i> ' +
         from + ((to && isNum) ? '&ndash;' + to : (isNum) ? '+' : ''));
     }
 
